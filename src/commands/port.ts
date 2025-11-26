@@ -29,7 +29,7 @@ export async function portProject(
   target: string,
   options: PortOptions
 ): Promise<void> {
-  console.log(chalk.blue.bold('\n🍴 Forky - Project Porting Tool\n'));
+  console.log(chalk.blue.bold('\n🍴 Morphie - Project Porting Tool\n'));
 
   const spinner = ora('Initializing...').start();
 

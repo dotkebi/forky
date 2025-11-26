@@ -1,4 +1,4 @@
-// Forky - Code Porting Tool with Local LLM
+// Morphie - Code Porting Tool with Local LLM
 
 export { ProjectAnalyzer } from './core/analyzer.js';
 export type { ProjectAnalysis, SourceFile, ProjectStructure } from './core/analyzer.js';

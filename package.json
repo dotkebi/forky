@@ -1,11 +1,11 @@
 {
-  "name": "forky",
+  "name": "morphie",
   "version": "0.1.0",
   "description": "CLI tool for porting open source projects to different languages using local LLM",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "forky": "dist/cli.js"
+    "morphie": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc",

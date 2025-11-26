@@ -9,7 +9,7 @@ import { listModels } from './commands/models.js';
 const program = new Command();
 
 program
-  .name('forky')
+  .name('morphie')
   .description('CLI tool for porting open source projects to different languages using local LLM')
   .version('0.1.0');
 

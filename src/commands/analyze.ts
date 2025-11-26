@@ -12,7 +12,7 @@ export async function analyzeProject(
   source: string,
   options: AnalyzeOptions
 ): Promise<void> {
-  console.log(chalk.blue.bold('\n🍴 Forky - Project Analysis\n'));
+  console.log(chalk.blue.bold('\n🍴 Morphie - Project Analysis\n'));
 
   const spinner = ora('Analyzing project...').start();
 

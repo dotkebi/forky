@@ -7,7 +7,7 @@ interface ModelsOptions {
 }
 
 export async function listModels(options: ModelsOptions): Promise<void> {
-  console.log(chalk.blue.bold('\n🍴 Forky - Available Models\n'));
+  console.log(chalk.blue.bold('\n🍴 Morphie - Available Models\n'));
 
   const spinner = ora('Fetching models from Ollama...').start();
 

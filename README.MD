@@ -1,6 +1,6 @@
-# Forky
+# Morphie
 
-**Fork it, Port it, Done.**
+**Morph it, Port it, Done.**
 
 A CLI tool that ports open source projects to different programming languages using local LLM.
 
@@ -40,34 +40,34 @@ npm run build
 
 ```bash
 # Basic usage
-forky port <source-dir> <target-dir> -f <from-lang> -t <to-lang>
+morphie port <source-dir> <target-dir> -f <from-lang> -t <to-lang>
 
 # TypeScript → Dart
-forky port ./my-ts-project ./my-dart-project -f typescript -t dart
+morphie port ./my-ts-project ./my-dart-project -f typescript -t dart
 
 # With specific model
-forky port ./src ./output -f typescript -t dart -m codellama:7b
+morphie port ./src ./output -f typescript -t dart -m codellama:7b
 
 # Dry run (analyze only)
-forky port ./src ./output -f typescript -t dart --dry-run
+morphie port ./src ./output -f typescript -t dart --dry-run
 
 # Verbose output
-forky port ./src ./output -f typescript -t dart -v
+morphie port ./src ./output -f typescript -t dart -v
 ```
 
 ### Analyze a project
 
 ```bash
-forky analyze <source-dir>
+morphie analyze <source-dir>
 
 # With file listing
-forky analyze ./my-project -v
+morphie analyze ./my-project -v
 ```
 
 ### List available models
 
 ```bash
-forky models
+morphie models
 ```
 
 ## CLI Options
@@ -86,7 +86,7 @@ forky models
 ## Example
 
 ```
-🍴 Forky - Project Porting Tool
+🍴 Morphie - Project Porting Tool
 
 Porting 209 files:
 
